@@ -86,7 +86,7 @@ class Beam:
             return 'Beam parameters:' + '\n' \
                     +'\tCurrent\t%0.0f A'%(self.current) + '\n' \
                     +'\tEnergy\t%0.3f MeV'%(self.energy) + '\n' \
-                    +'\tImpuls\t%0.3f MeV/c'%(self.impuls) + '\n' \
+                    +'\tMomentum\t%0.3f MeV/c'%(self.impuls) + '\n' \
                     +'\tRel. factor g\t%0.3f'%(self.gamma) + '\n' \
                     +'\tRadius x\t%0.1f mm'%(self.radius_x*1e3) + '\n' \
                     +'\tRadius y\t%0.1f mm'%(self.radius_y*1e3) + '\n' \
